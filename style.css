@@ -1,0 +1,635 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.custom-container{
+    width: 85%; 
+    margin: auto; 
+}
+
+
+
+/*--------- header section start--------- */
+
+.header-area{
+    overflow: hidden;
+    padding: 10px 0;
+    padding-top: 14px;
+    background: #333333;
+}
+
+
+
+
+/*----- menu-section-start ----*/
+
+.navbar-toggler {   
+
+    background: rgb(255, 103, 80); 
+}
+.navbar-toggler {
+	font-size: 16px;
+}
+
+.nav-margin{
+    margin-top: -70px;
+}
+.mobile-logo{
+    overflow: hidden;
+    padding-bottom: 18px;
+}
+.mobile-logo a img{
+    width: 220px;
+}
+
+.custom-menu li{
+    margin-left: 16px;
+
+}
+.custom-menu li a{
+    font-size: 16px; 
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 600;
+    display: inline-block;
+    padding: 7px 16px;
+    padding-bottom: 10px;
+    transition: .2s;
+}
+.custom-menu li a:hover{
+    color: rgb(255, 103, 80); 
+
+}
+.custom-menu li:last-child a{
+    background: #FF3514;
+    border-radius: 30px; 
+    font-size: 18px;
+    padding: 7px 25px; 
+    padding-bottom: 9px;
+    border: 3px solid #FF3514;
+    margin-top: -3px; 
+    transition: .2s;
+}
+.custom-menu li:last-child a:hover{
+    background: transparent; 
+    color: rgb(255, 103, 80); 
+}
+
+
+
+.navbar-collapse {
+	flex-grow: 0 !important;
+}
+
+/*----- menu-section-end ------*/
+
+
+
+
+/*----------- banner-section-start-here -----------*/
+.banner-section{
+    background: url(new.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.banner-title{
+    margin-top: 90px;
+}
+
+.banner-title h1{
+    font-size: 48px; 
+    color: #fff; 
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.banner-title a{
+    font-size: 28px; 
+    color: #ffffff; 
+    text-decoration: none;
+    display: inline-block;
+    background: #FF3514;
+    padding: 4px 26px; 
+    padding-bottom: 7px;
+    border-radius: 6px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    margin-top: 40px;
+    border: 3px solid #FF3514;
+}
+
+.banner-title a:hover{
+    background: #e21e00;
+    border: 3px solid #e21e00;
+}
+
+
+.banner-form-area{
+    padding-left: 20px;
+
+}
+
+.banner-form{
+    background: rgba(0, 0, 0, 0.767);
+    padding: 42px;
+    overflow: hidden;
+
+}
+.banner-form h2{
+    font-size: 28px; 
+    color: #fff; 
+    font-weight: 700;
+
+}
+.banner-form p{
+    font-size: 16px; 
+    color: #fff; 
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.banner-form form input,
+.banner-form form select{
+    width: 48%; 
+    font-size: 15px;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    padding: 5px 2%; 
+    padding-bottom: 7px;
+    background-color: #fff !important;
+    opacity: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #fff; 
+}
+
+.banner-form form input:nth-child(5){
+    width: 100%; 
+}
+
+.banner-form form input:last-child{
+    width: 100%;
+    margin-left: 0;
+    background: #FFB118 !important;
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #FFB118;
+    margin-bottom: 0;
+}
+
+.banner-form form input:last-child:hover{
+    background: #e29702 !important;
+    border: 1px solid #FFB118;
+
+}
+
+.banner-form form input,
+.banner-form form select{}
+
+.banner-form form input:nth-child(1),
+.banner-form form input:nth-child(3),
+.banner-form form input:nth-child(5),
+.banner-form form input:nth-child(6),
+.banner-form form select:nth-child(8){
+    margin-left: 0;
+}
+
+
+
+/*------ banner-section-end-here ------*/
+.welcome-section{
+    overflow: hidden;
+    padding: 100px 0; 
+}
+.welcome-area{
+
+}
+.welcome-content h2{
+    font-size: 37px; 
+    color: #09135c; 
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.welcome-content p{
+    font-size: 17px;
+    color: #686868;
+    line-height: 28px;
+}
+
+
+.welcome-img-area{
+ overflow: hidden;
+ margin-top: 30px;   
+}
+.welcome-img{
+    overflow: hidden;
+}
+.welcome-img img{
+    width: 100%;
+    transition: .4s;
+    cursor: pointer;
+    min-height: 150px;
+}
+.welcome-img img:hover{
+    transform: scale(1.2);
+}
+
+
+.list-icon-are{
+    padding-left: 65px;
+
+}
+.list-icon{
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.list-img{
+    padding-right: 20px; 
+}
+.list-content{
+    margin-top: 6px;
+}
+.list-content h3,
+.ser-content h3{
+    font-size: 22px; 
+    color: #222; 
+    font-weight: 600;
+	margin-bottom: 12px;
+}
+
+.list-content p,
+.ser-content p{
+    font-size: 17px;
+    color: #686868;
+}
+
+
+/*------------- welcome-section-start-here --------- */
+
+
+
+
+
+
+/*-------- service-section-start-here --------*/
+
+
+.services-section{
+	background: url(image/v1-2-original-676x433.png); 
+	background-size: 100% 100%; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	padding-top: 160px; 
+	overflow: hidden; 
+}
+
+.service-title{
+	text-align: center; 
+	margin-bottom: 80px; 
+	
+}
+.service-title h2{
+	font-size: 37px;
+	color: #09135c;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.service-title p{
+	font-size: 17px; 
+	color: #686868; 	
+}
+
+.service-tab{
+	background: #fff; 
+}
+
+.tab-pnl{
+	background: #232323; 
+	height: 100%; 
+	padding: 20px 0; 
+}
+
+.single-tab-p{
+	
+}
+.single-tab-p a{
+	font-size: 18px; 
+	text-transform: uppercase; 
+	color: #fff; 
+	font-weight: 500; 
+    margin-bottom: 10px;
+	font-family: arial; 
+	text-decoration: none; 
+	padding: 20px 36px; 
+	display: block; 
+	transition: .1s; 
+}
+.single-tab-p a:hover,
+.active{
+	background: #FF3514; 
+}
+
+.tab-content{
+	padding: 40px 20px;  
+}
+
+.activee{
+    display: block;
+} 
+.sngle-tab-cont-2, 
+.sngle-tab-cont-3{
+    display: none;
+}
+
+.single-tab-cont h3{
+	font-size: 22px; 
+	color: #222; 
+	font-weight: 600; 
+	text-transform: uppercase; 
+	font-family: arial; 
+	margin-bottom: 18px; 
+}
+.single-tab-cont p{
+	font-size: 17px;
+	color: #686868;
+	line-height: 28px;
+}
+
+.single-tab-cont a{
+	font-size: 16px; 
+	text-decoration: none; 
+	display: inline-block; 
+	background: #FFB118; 
+	padding: 9px 20px; 
+	color: #fff; 
+	font-weight: 600; 
+}
+
+.single-tab-cont a:hover{
+	background: #e29702; 
+}
+
+
+/*-------- service-section-end-here --------*/
+
+
+
+
+/*------------ choosing-section-start-here ------------*/
+.choosing-section{
+	overflow: hidden; 
+	padding: 100px 0; 
+}
+
+.our-services{
+	overflow: hidden; 
+	padding-top: 00px; 
+}
+
+.services-list{
+	margin-bottom: 40px; 
+    padding: 0 20px;
+}
+
+.ser-icon img{
+	width: 36px; 
+	margin-bottom: 8px; 
+}
+
+
+.service-image{
+	overflow: hidden; 
+}
+
+.ser-big-img{
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.ser-big-img img{
+	width: 100%; 
+    border-radius: 100%; 
+    height: 520px;
+}
+
+.small-1-img img,
+.small-2-img img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border: 4px solid #fff; 
+}
+.small-1-img img{
+    right: 0; 
+    top: 0; 
+}
+
+.small-2-img img{
+    left: 0; 
+    bottom: 0;
+}
+
+
+/*------------ choosing-section-end-here ------------*/
+
+
+/*--------- experience-section-start-here --------- */
+
+.experience-section{
+    background: url(image/landscape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px 0; 
+    overflow: hidden;
+}
+.experience-title {
+    width: 80%; 
+    float: left;
+    overflow: hidden;
+}
+
+.expericen-btn{
+    width: 20%; 
+    overflow: hidden;
+    text-align: right;
+}
+.expericen-btn a{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px; 
+    color: rgb(233, 233, 233);
+    font-weight: 600;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 6px 30px;
+    transition: .3s;
+    margin-top: 30px;
+}
+.expericen-btn a:hover{
+    background: rgb(233, 233, 233);
+    color: #333; 
+}
+
+.experience-title h2{
+    font-size: 32px; 
+    color: #333; 
+    font-weight: 700; 
+    line-height: 49px;
+}
+.experience-title p{
+    font-size: 17px; 
+    color: rgb(233, 233, 233);
+}
+
+
+/*--------- experience-section-end-here --------- */
+
+
+
+/*---------- feedbak-section-start-here ---------- */
+.feedbak-section{
+    padding: 100px 0; 
+    overflow: hidden;
+}
+.single-feedback{
+    border: 1px solid #ccc;
+    padding: 16px 24px;
+    position: relative;
+    min-height: 250px;
+    background: #fff;
+}
+.feed-img-t-cont{
+    overflow: hidden;
+    margin-left: 100px;
+}
+.feed-img{
+    float: left;
+    overflow: hidden;
+}
+.feed-img img{
+    margin-top: -50px;
+    position: absolute;
+    left: 24px; 
+    top: 30px; 
+    width: 80px;
+}
+.fee-d-title h4{
+    font-size: 20px; 
+    color: #222; 
+    font-weight: 600;
+    margin: 2px;
+
+}
+
+.fee-d-title span{
+    font-style: italic;
+    font-size: 14px;
+    color: #686868; 
+}
+.feed-content{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.feed-content p{
+    font-size: 16px;
+    color: #686868; 
+    font-style: italic;
+}
+
+
+
+
+/*---- for-carousel--- */
+
+.owl-carousel.owl-drag .owl-item {
+	background: #fff !important;
+}
+.owl-carousel .owl-item img {
+	width: auto !important;
+}
+
+.owl-stage-outer {
+	padding: 30px 0 !important;
+}
+
+.owl-nav {
+	text-align: center !important;
+    cursor: pointer;
+}
+.owl-prev {
+	font-size: 48px !important;
+}
+.owl-nav button span {
+	font-size: 50px;
+    padding: 0 40px;
+    position: relative;
+}
+
+.owl-nav button span::after{
+    content: ''; 
+    height: 40px; 
+    width: 50px; 
+    border: 1px solid #ccc; 
+    position: absolute;
+    left: 24px; 
+    bottom: 6px; 
+}
+
+
+/*---------- feedbak-section-end-here ---------- */
+
+
+
+
+
+
+/* Fotter section start */
+.fotter-section{
+    background-color: #333333;
+    overflow: hidden;
+}
+.fotter-p{
+    display: flex;
+   align-items: center;
+}
+.fotter-section p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 !important;
+    color: white;
+}
+.fotter-section ul{
+
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.fotter-section ul li{
+    padding: 0 10px;
+}
+.fotter-section ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.fotter-section ul li a:hover{
+    color: #ff3514;
+}
+
+
+/* Fotter section stop */
+

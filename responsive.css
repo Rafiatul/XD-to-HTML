@@ -1,0 +1,303 @@
+@media screen and (max-width: 1880px) {
+    .ser-big-img > img {
+        height: 470px !important;
+    }
+}
+@media screen and (max-width: 1850px) {
+    .ser-big-img > img {
+        height: 460px !important;
+    }
+}
+
+
+@media screen and (max-width: 1630px) {
+    .ser-big-img > img {
+        height: 420px !important;
+    }
+    .small-1-img img,
+    .small-2-img img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .ser-big-img > img {
+        height: 390px !important;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .ser-big-img > img {
+        height: 360px !important;
+    }
+    .welcome-content h2 {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .ser-big-img > img {
+        height: 330px !important;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .ser-big-img > img {
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .ser-big-img > img {
+        height: 280px !important;
+    }
+    .navbar-nav.custom-menu {
+        margin-top: 33px !important;
+    }
+    .custom-menu li:last-child a {
+        margin-top: 15px !important;
+    }
+    .banner-title h1 {
+        font-size: 34px !important;
+    }
+    .banner-form h2 {
+        font-size: 25px !important;
+    }
+    .banner-form {
+        padding: 27px !important;
+    }
+    .banner-form p {
+        font-size: 15px !important;
+        margin-bottom: 29px !important;
+    }
+    .banner-form form input, .banner-form form select {
+        font-size: 13px !important;
+    }
+    
+    .banner-title a {
+        font-size: 20px !important;
+        padding: 5px 24px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .experience-title {
+        width: 66% !important;
+    }
+    .expericen-btn {
+        width: 34% !important;
+    }
+    .fotter-section ul li a {
+        font-size: 13px !important;
+    }
+    .banner-title {
+        margin-top: 50px !important;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    .ser-big-img > img {
+        height: 218px !important;
+    }
+    .small-1-img img, .small-2-img img {
+        width: 73px !important;
+        height: 73px !important;
+    }
+}
+@media screen and (max-width: 740px) {
+
+    
+    .banner-section {
+        padding: 40px 0 !important;
+    }
+    .banner-form-area {
+        margin-top: 60px !important;
+    }
+    .banner-title a {
+        margin-top: 18px !important;
+    }
+    .banner-title {
+        margin-top: 0 !important;
+    }
+    .welcome-img {
+        margin-bottom: 23px !important;
+    }
+
+    .list-icon-are {
+        padding-left: 0 !important;
+        margin-top: 20px !important;
+    }
+    .welcome-section {
+        padding: 42px 0 !important;
+    }
+    .welcome-content h2 {
+        font-size: 26px !important;
+    }
+    .welcome-content p {
+        font-size: 16px !important;
+    }
+    .list-content h3, .ser-content h3 {
+        font-size: 19px !important;
+        margin-bottom: 8px !important;
+        margin-top: 4px !important;
+    }
+    .list-content p, .ser-content p {
+        font-size: 16px !important;
+    }
+    .list-img img {
+        width: 70px !important;
+    }
+    .choosing-section {
+        overflow: hidden;
+        padding: 62px 0 !important;
+    }
+    .services-list {
+        margin-bottom: 50px !important;
+        text-align: center !important;
+    }
+    .ser-icon img {
+        width: 51px !important;
+        margin-bottom: 16px !important;
+    }
+    .service-title {
+        margin-bottom: 56px !important;
+    }
+    .ser-big-img > img {
+        width: 54% !important;
+        height: 298px !important;
+    }
+    .service-image {
+        text-align: center !important;
+    }
+    .small-2-img img {
+        left: 100px !important;
+    }
+    .small-1-img img {
+        right: 100px !important;
+    }
+
+    .single-tab-p a {
+        font-size: 16px !important;
+        padding: 15px 36px !important;
+    }
+
+    .service-image {
+        margin-bottom: 50px !important;
+    }
+    .experience-title {
+        width: 100% !important;
+        text-align: center !important;
+        padding: 0 25px !important;
+    }
+    .expericen-btn {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .feedbak-section {
+        padding: 39px 0 !important;
+    }
+    .service-title h2 {
+        font-size: 32px !important;
+    }
+
+    .single-feedback {
+        min-height: 0px !important;
+        margin-bottom: 53px !important;
+    }
+    .slide-nav-icon {
+        margin-top: -16px !important;
+    }
+    .slide-nav-icon a {
+        padding: 3px 13px !important;
+        margin-left: 20px !important;
+    }
+    .slide-nav-icon a img {
+        width: 15px !important;
+    }
+    .banner-form {
+        margin-top: 23px !important;
+        margin-bottom: 23px !important;
+    }
+    .fotter-section ul {
+        display: none !important;
+    }
+    .fotter-p {
+        display: block !important;
+        align-items: center;
+        padding: 10px 0; 
+    }
+
+    .owl-stage-outer {
+        padding: 0 0 !important;
+    }
+    .owl-nav {
+        margin-top: -36px !important;
+        margin-bottom: 30px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 630px) {
+    .ser-big-img > img {
+        height: 275px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .ser-big-img > img {
+        height: 241px !important;
+    }
+    .small-1-img img, .small-2-img img {
+        width: 90px !important;
+        height: 91px !important;
+    }
+    .small-2-img img {
+        left: 63px !important;
+    }
+    .small-1-img img {
+        right: 63px !important;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .ser-big-img > img {
+        height: 216px !important;
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+    .ser-big-img > img {
+      height: 190px !important;
+    }
+    .small-1-img img,
+    .small-2-img img {
+      width: 79px !important;
+      height: 74px !important;
+    }
+}
+@media screen and (max-width: 384px) {
+    .ser-big-img > img {
+      height: 177px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .ser-big-img > img {
+      height: 163px !important;
+    }
+    .small-1-img img,
+    .small-2-img img {
+      width: 62px !important;
+      height: 60px !important;
+    }
+
+    .small-1-img img, .small-2-img img {
+        width: 56px !important;
+        height: 54px !important;
+    }
+
+}
